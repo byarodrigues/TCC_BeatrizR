@@ -12,6 +12,17 @@
       <h1>Controle   do Viveiro de Mudas</h1>
         <div class='section'>
           <h2>Sensores</h2>
+          <?php
+            echo(
+            "Temperatura do ar: " . $_GET["air_temperature"] . " °C. "
+            );a 
+            echo(
+            "Umidade do ar: " . $_GET["air_humidity"] . " %. "
+            );
+            echo(
+            "Umidade do solo: " . $_GET["soil_humidity"] . " %. "
+            );
+          ?>
           <p>Temperatura do ar: " + console.log(air_temperature) + " °C</p>
           <p>Umidade do ar: " + console.log(air_humidity) + " %</p>
           <p>Umidade do solo: " + console.log(soil_humidity) + "%</p>
@@ -51,22 +62,15 @@
           <input type='submit' value='Desligar Rega Manual'> 
           </form>
         </div>
-
-        <div class='section'>
-          <div class="dropdown">
-            <h2>Botão dropdown</h2>
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-        </div>
+        
+        <div class="section">
+          <h2>Imagem referente ao setor 3 do viveiro de produção de mudas do IFMG campus bambuí.</h2>
+          <img
+            src="img/viveiro.jpg"
+            alt="Imagem referente ao setor 3 do viveiro de produção de mudas do IFMG campus bambuí."
+            width="400"
+            height="341" />     
+        </div>        
     </div>
   </body>
 </html>
-
-
-  
-  
