@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,11 +9,11 @@
   <body>
       <button>Iniciar processos...</button>
       <script>
-          function desligarRegaManual() {
-            console.log('Rega manual desligada');
-            regaAtiva = false;
+          function ligarRegaManual() {
+            console.log('Rega manual acionada');
+            last_hour = current_hour
+            last_minute = current_minute
           }
       </script>
-      <form action='index.html' method='POST'>
   </body>
 </html>

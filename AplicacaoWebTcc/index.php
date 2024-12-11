@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <title>Controle do Viveiro</title>
@@ -12,20 +11,9 @@
       <h1>Controle   do Viveiro de Mudas</h1>
         <div class='section'>
           <h2>Sensores</h2>
-          <?php
-            echo(
-            "Temperatura do ar: " . $_GET["air_temperature"] . " °C. "
-            );a 
-            echo(
-            "Umidade do ar: " . $_GET["air_humidity"] . " %. "
-            );
-            echo(
-            "Umidade do solo: " . $_GET["soil_humidity"] . " %. "
-            );
-          ?>
-          <p>Temperatura do ar: " + console.log(air_temperature) + " °C</p>
-          <p>Umidade do ar: " + console.log(air_humidity) + " %</p>
-          <p>Umidade do solo: " + console.log(soil_humidity) + "%</p>
+          <p>Temperatura do ar: " + <?php echo($_GET["air_temperature"]");?> + " °C</p>
+          <p>Umidade do ar: " + echo("Umidade do ar: " . $_GET["air_humidity"] . " %. "); + " % </p>
+          <p>Umidade do solo: " + <?php echo("Umidade do solo: " . $_GET["soil_humidity"] . " %.);?> + "% </p>
         </div>
 
         <div class='section'>
