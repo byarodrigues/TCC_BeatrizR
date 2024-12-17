@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle do Viveiro</title>
+</head>
+<body>
+  <div class="conteiner">
+    <h1>Controle do viveiro de mudas do IFMG campus Bambuí</h1>
+      <div class="secoes">
+        <h2>
+          Sensores
+        </h2>
+        <p>Temperatura do Ar: ... °C</p>
+        <p>Umidade do Ar: ... %</p>
+        <p>Umidade do Solo: ... %</p>
+      </div>
+      <div class="secoes">
+        <h2>Hor&acute;rios</h2>
+        <p>Hora Atual: ... : ... </p>
+        <p>Horário das Regas: ... : ... e ... : ...</p>
+        <p>Horário da última rega: ... : ... </p>
+      </div>
+      <div class="secoes">
+        <h2>Controle da Rega</h2>
+        <p>Rega Ativa: ... </p>
+        <p>Duração da rega: ... minutos</p>
+      </div>
+      <div class="secoes">
+        <h2>Configurações</h2>
+        Primeiro Horário de Rega: <input type="number" name="hour1" min="0" max="23">
+        Primeiro Minuto de Rega: <input type="time" name="minute1" min="0" max="59">
+        Segundo Horário de Rega: <input type="number" name="hour2" min="0" max="23">
+        Segundo Minuto de Rega: <input type="time" name="minute2" min="0" max="59">
+        Tempo de Rega (minutos): <input type="number" name="time" min="1" value="">
+        <input type="submit" name="Atualizar" id="atualizaValor">
+      </div>
+      <div class="secoes">
+        <h2>Rega Manual</h2>
+        <input type="submit" value="Ligar a Rega">
+        <input type="submit" value="Desligar a Rega">
+      </div>
+      <div class="secoes">
+        <h2>Imagem referente ao setor 3 do viveiro de produção de mudas do IFMG campus </h2>
+        <img class="Imagem" src="img/viveiro.jpg" alt="viveiro do IFMG">
+      </div>
+  </div>  
+</body>
+</html>
