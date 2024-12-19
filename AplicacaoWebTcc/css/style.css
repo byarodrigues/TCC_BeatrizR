@@ -1,7 +1,7 @@
 
     body {
         font-family: Arial, sans-serif; margin: 0; padding: 0; 
-        background-color: #f8faf8;
+        background-color: #FFFFFF;
     }
 
     .conteiner {
@@ -9,10 +9,11 @@
     }
 
     h1{
-        background-color: #45a049;
-        color: #FFFFFF;
+        background-color: #f8f8f8;
+        color: #000000;
         padding: 10px;
         border-radius: 5px;
+        text-align: center;
     }
 
     .secoes {  
@@ -29,7 +30,7 @@
         border-radius: 5px;
     }
     
-    input[type='submit'] { 
+    .botao {
         background-color: #4CAF50; 
         color: white; 
         border: white; 
@@ -37,6 +38,21 @@
         cursor: pointer; 
         border-radius: 12px; 
     }
-    input[type='submit']:hover { 
+
+    .botao:hover { 
         background-color: #07c711; 
+    }
+
+    .secao__imagem {  
+        border: 1px solid black; 
+        padding: 10px; 
+        margin-bottom: 20px; 
+        border-radius: 5px;
+        background-color: #cbe6cc;
+    }
+
+    .imagem__viveiro {
+        border-radius: 6px;
+        width: 400;
+        height: 200px;
     }

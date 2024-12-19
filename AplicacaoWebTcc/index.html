@@ -37,12 +37,31 @@
       </div>
       <div class="secoes">
         <h2>Rega Manual</h2>
-        <input type="submit" value="Ligar a Rega">
-        <input type="submit" value="Desligar a Rega">
+        <div class="botao">
+          <input type="submit" value="Ligar a Rega">
+        </div>
+        <div class="botao">
+          <input type="submit" value="Desligar a Rega">
+        </div>
       </div>
-      <div class="secoes">
+      <div class="secao__imagem">
         <h2>Imagem referente ao setor 3 do viveiro de produção de mudas do IFMG campus </h2>
-        <img class="Imagem" src="img/viveiro.jpg" alt="viveiro do IFMG" width="400" sizes="200px" >
+        <div class="imagem__viveiro">
+          <img src="img/viveiro.jpg" alt="viveiro do IFMG">
+          <button onclick="confirmar()">Comfirmar?</button>
+          <script>
+            <p id="texto"></p>
+            function confirmar(){
+              let texto = "";
+              let confirmacao = confirm("Confirma?");
+              if (confirmacao)
+                texto = "OKK!";
+              else
+                texto = "Cancelado!";
+              document.write(texto);
+            }
+          </script>
+        </div>
       </div>
   </div>  
 </body>
