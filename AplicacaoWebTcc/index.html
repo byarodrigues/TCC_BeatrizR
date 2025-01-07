@@ -38,16 +38,19 @@
       <div class="secoes">
         <h2>Rega Manual</h2>
         <div class="botao">
-          <input type="submit" value="Ligar a Rega">
-        </div>
+          <button>Ligar a Rega</button>
+        </div><br>
         <div class="botao">
+          <button type="submit">Desligar a Rega</button>
           <input type="submit" value="Desligar a Rega">
         </div>
       </div>
       <div class="secao__imagem">
         <h2>Imagem referente ao setor 3 do viveiro de produção de mudas do IFMG campus </h2>
-        <div class="imagem__viveiro">
-          <img src="img/viveiro.jpg" alt="viveiro do IFMG">
+        <div>
+          <img src="img/viveiro.jpg" alt="viveiro do IFMG" width="400px">
+        </div>
+        <div class="botao">
           <button onclick="confirmar()">Comfirmar?</button>
           <script>
             <p id="texto"></p>
@@ -60,6 +63,9 @@
                 texto = "Cancelado!";
               document.write(texto);
             }
+            <button class="large-button">
+                Click Me!
+            </button>
           </script>
         </div>
       </div>

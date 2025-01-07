@@ -31,12 +31,13 @@
     }
     
     .botao {
-        background-color: #4CAF50; 
-        color: white; 
-        border: white; 
-        padding: 10px 20px; 
+        color: #07c711;
+        border: #07c711; 
+        padding: 5px 20px; 
         cursor: pointer; 
         border-radius: 12px; 
+        width: 200px;
+        height: 50px;
     }
 
     .botao:hover { 
@@ -53,6 +54,14 @@
 
     .imagem__viveiro {
         border-radius: 6px;
-        width: 400;
-        height: 200px;
+        width: 10;
+        height: 5px;
+    }
+
+    .large-button {
+        padding: 12px 70px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 2px solid black;
+        background-color: pink;
     }
